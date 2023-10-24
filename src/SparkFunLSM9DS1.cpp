@@ -97,7 +97,7 @@ void LSM9DS1::init()
 	// -1 = bandwidth determined by sample rate
 	// 0 = 408 Hz   2 = 105 Hz
 	// 1 = 211 Hz   3 = 50 Hz
-	settings.accel.bandwidth = -1;
+	settings.accel.bandwidth = 3;
 	settings.accel.highResEnable = false;
 	// accelHighResBandwidth can be any value between 0-3
 	// LP cutoff is set to a factor of sample rate
